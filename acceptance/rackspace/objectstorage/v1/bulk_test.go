@@ -5,8 +5,8 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/rackspace/objectstorage/v1/bulk"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/rackspace/objectstorage/v1/bulk"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestBulk(t *testing.T) {

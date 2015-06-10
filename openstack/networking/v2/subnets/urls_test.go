@@ -3,8 +3,8 @@ package subnets
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 const endpoint = "http://localhost:57909/"

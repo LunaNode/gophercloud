@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // CloudNetwork represents a network associated with a RackConnect configuration.

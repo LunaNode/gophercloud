@@ -2,8 +2,8 @@ package keypairs
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // KeyPair is an SSH key known to the OpenStack cluster that is available to be injected into

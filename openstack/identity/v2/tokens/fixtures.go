@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud/openstack/identity/v2/tenants"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/openstack/identity/v2/tenants"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 // ExpectedToken is the token that should be parsed from TokenCreationResponse.

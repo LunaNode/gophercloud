@@ -5,12 +5,12 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/secgroups"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/acceptance/tools"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/secgroups"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/servers"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestSecGroups(t *testing.T) {

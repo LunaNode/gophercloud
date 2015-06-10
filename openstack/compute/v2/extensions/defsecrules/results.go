@@ -3,9 +3,9 @@ package defsecrules
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/secgroups"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/secgroups"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // DefaultRule represents a default rule - which is identical to a

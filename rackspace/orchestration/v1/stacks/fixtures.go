@@ -1,8 +1,8 @@
 package stacks
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/orchestration/v1/stacks"
 )
 
 // CreateExpected represents the expected object from a Create request.

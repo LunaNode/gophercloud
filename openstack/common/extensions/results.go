@@ -2,8 +2,8 @@ package extensions
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // GetResult temporarily stores the result of a Get call.

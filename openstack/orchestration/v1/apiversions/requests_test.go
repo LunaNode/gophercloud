@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	fake "github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func TestListVersions(t *testing.T) {

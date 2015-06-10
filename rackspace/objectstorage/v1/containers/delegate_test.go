@@ -3,10 +3,10 @@ package containers
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/LunaNode/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	fake "github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func TestListContainerInfo(t *testing.T) {

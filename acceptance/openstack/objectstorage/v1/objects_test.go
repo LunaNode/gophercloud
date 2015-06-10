@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/openstack/objectstorage/v1/objects"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/acceptance/tools"
+	"github.com/LunaNode/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/LunaNode/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 // numObjects is the number of objects to create for testing.

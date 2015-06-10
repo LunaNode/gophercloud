@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func mockStartServerResponse(t *testing.T, id string) {

@@ -3,9 +3,9 @@ package tokens
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/LunaNode/gophercloud"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func tokenPost(t *testing.T, options gophercloud.AuthOptions, requestJSON string) CreateResult {

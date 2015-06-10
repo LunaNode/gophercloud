@@ -1,6 +1,6 @@
 package networks
 
-import "github.com/rackspace/gophercloud"
+import "github.com/LunaNode/gophercloud"
 
 func resourceURL(c *gophercloud.ServiceClient, id string) string {
 	return c.ServiceURL("os-networksv2", id)

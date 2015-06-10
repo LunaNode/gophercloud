@@ -5,11 +5,11 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	dsr "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/defsecrules"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/acceptance/tools"
+	dsr "github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/defsecrules"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestSecDefRules(t *testing.T) {

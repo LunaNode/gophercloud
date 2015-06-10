@@ -3,8 +3,8 @@ package snapshots
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // CreateOptsBuilder allows extensions to add additional parameters to the

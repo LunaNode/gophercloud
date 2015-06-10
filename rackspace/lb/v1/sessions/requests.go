@@ -3,7 +3,7 @@ package sessions
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 )
 
 // CreateOptsBuilder is the interface options structs have to satisfy in order

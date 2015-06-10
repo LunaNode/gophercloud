@@ -1,8 +1,8 @@
 package stacktemplates
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacktemplates"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/orchestration/v1/stacktemplates"
 )
 
 // Get retreives data for the given stack template.

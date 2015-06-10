@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/schedulerhints"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/servergroups"
-	"github.com/rackspace/gophercloud/openstack/compute/v2/servers"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/acceptance/tools"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/schedulerhints"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/servergroups"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/servers"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func createServerGroup(t *testing.T, computeClient *gophercloud.ServiceClient) (*servergroups.ServerGroup, error) {

@@ -1,8 +1,8 @@
 package accounts
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/accounts"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/objectstorage/v1/accounts"
 )
 
 // Get is a function that retrieves an account's metadata. To extract just the

@@ -3,9 +3,9 @@ package accounts
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/accounts"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/LunaNode/gophercloud/openstack/objectstorage/v1/accounts"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	fake "github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func TestUpdateAccounts(t *testing.T) {

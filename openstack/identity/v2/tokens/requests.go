@@ -1,6 +1,6 @@
 package tokens
 
-import "github.com/rackspace/gophercloud"
+import "github.com/LunaNode/gophercloud"
 
 // AuthOptionsBuilder describes any argument that may be passed to the Create call.
 type AuthOptionsBuilder interface {

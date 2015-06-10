@@ -1,6 +1,6 @@
 package vips
 
-import "github.com/rackspace/gophercloud"
+import "github.com/LunaNode/gophercloud"
 
 const (
 	rootPath     = "lb"

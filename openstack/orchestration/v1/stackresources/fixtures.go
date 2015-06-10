@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/LunaNode/gophercloud"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	fake "github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 // FindExpected represents the expected object from a Find request.

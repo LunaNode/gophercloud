@@ -5,10 +5,10 @@ package lbaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas/members"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/LunaNode/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/LunaNode/gophercloud/openstack/networking/v2/extensions/lbaas/members"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestMembers(t *testing.T) {

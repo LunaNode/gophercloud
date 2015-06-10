@@ -3,10 +3,10 @@ package tenants
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/tenants"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/LunaNode/gophercloud/openstack/identity/v2/tenants"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	fake "github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func TestListTenants(t *testing.T) {

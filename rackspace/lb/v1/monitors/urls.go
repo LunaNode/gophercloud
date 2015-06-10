@@ -3,7 +3,7 @@ package monitors
 import (
 	"strconv"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 )
 
 const (

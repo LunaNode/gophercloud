@@ -1,9 +1,9 @@
 package ports
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/networking/v2/ports"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/networking/v2/ports"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // List returns a Pager which allows you to iterate over a collection of

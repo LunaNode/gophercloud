@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/lbs"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/vips"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/acceptance/tools"
+	"github.com/LunaNode/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud/rackspace/lb/v1/lbs"
+	"github.com/LunaNode/gophercloud/rackspace/lb/v1/vips"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestLBs(t *testing.T) {

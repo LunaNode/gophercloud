@@ -1,9 +1,9 @@
 package flavors
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/flavors"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/compute/v2/flavors"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // ListOpts helps control the results returned by the List() function. For example, a flavor with a

@@ -1,9 +1,9 @@
 package cdncontainers
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/containers"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/objectstorage/v1/containers"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // ExtractNames interprets a page of List results when just the container

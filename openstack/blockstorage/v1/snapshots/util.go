@@ -1,7 +1,7 @@
 package snapshots
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 )
 
 // WaitForStatus will continually poll the resource, checking for a particular

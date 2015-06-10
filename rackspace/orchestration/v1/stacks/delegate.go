@@ -1,9 +1,9 @@
 package stacks
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stacks"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/orchestration/v1/stacks"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // Create accepts an os.CreateOpts struct and creates a new stack using the values

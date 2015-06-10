@@ -3,9 +3,9 @@ package tenants
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/LunaNode/gophercloud/pagination"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 func TestListTenants(t *testing.T) {

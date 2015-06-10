@@ -3,7 +3,7 @@ package stacktemplates
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 )
 
 // Get retreives data for the given stack template.

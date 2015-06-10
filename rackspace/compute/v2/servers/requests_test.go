@@ -3,8 +3,8 @@ package servers
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/compute/v2/extensions/diskconfig"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/extensions/diskconfig"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestCreateOpts(t *testing.T) {

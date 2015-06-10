@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/services"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/cdn/v1/services"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/cdn/v1/services"
+	"github.com/LunaNode/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud/rackspace/cdn/v1/services"
+	th "github.com/LunaNode/gophercloud/testhelper"
 )
 
 func TestService(t *testing.T) {

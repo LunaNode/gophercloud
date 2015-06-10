@@ -1,8 +1,8 @@
 package cdnobjects
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/LunaNode/gophercloud"
+	os "github.com/LunaNode/gophercloud/openstack/objectstorage/v1/objects"
 )
 
 // Delete is a function that deletes an object from the CDN.

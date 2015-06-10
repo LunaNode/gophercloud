@@ -3,8 +3,8 @@ package throttle
 import (
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/LunaNode/gophercloud/testhelper"
+	"github.com/LunaNode/gophercloud/testhelper/client"
 )
 
 const lbID = 12345

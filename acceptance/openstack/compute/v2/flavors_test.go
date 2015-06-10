@@ -5,8 +5,8 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/compute/v2/flavors"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud/openstack/compute/v2/flavors"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 func TestListFlavors(t *testing.T) {

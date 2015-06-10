@@ -2,8 +2,8 @@ package volumetypes
 
 import (
 	"github.com/mitchellh/mapstructure"
-	os "github.com/rackspace/gophercloud/openstack/blockstorage/v1/volumetypes"
-	"github.com/rackspace/gophercloud/pagination"
+	os "github.com/LunaNode/gophercloud/openstack/blockstorage/v1/volumetypes"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 type VolumeType os.VolumeType

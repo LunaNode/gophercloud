@@ -1,9 +1,9 @@
 package serviceassets
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/serviceassets"
+	os "github.com/LunaNode/gophercloud/openstack/cdn/v1/serviceassets"
 )
 
 // Delete accepts a unique ID and deletes the CDN service asset associated with

@@ -3,8 +3,8 @@ package volumeattach
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/LunaNode/gophercloud"
+	"github.com/LunaNode/gophercloud/pagination"
 )
 
 // List returns a Pager that allows you to iterate over a collection of VolumeAttachments.

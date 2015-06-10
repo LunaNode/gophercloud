@@ -3,9 +3,9 @@ package openstack
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/rackspace/gophercloud/openstack/identity/v3/tokens"
+	"github.com/LunaNode/gophercloud"
+	tokens2 "github.com/LunaNode/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/LunaNode/gophercloud/openstack/identity/v3/tokens"
 )
 
 // V2EndpointURL discovers the endpoint URL for a specific service from a ServiceCatalog acquired

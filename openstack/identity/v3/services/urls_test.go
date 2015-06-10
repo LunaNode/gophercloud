@@ -3,7 +3,7 @@ package services
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/LunaNode/gophercloud"
 )
 
 func TestListURL(t *testing.T) {
