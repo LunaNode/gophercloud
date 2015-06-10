@@ -71,10 +71,22 @@ func Get(c *gophercloud.ServiceClient, id string) GetResult {
 	var res GetResult
 	h := c.AuthenticatedHeaders()
 
-	response, err := c.Head(getURL(c, id), &gophercloud.RequestOpts{
+	response, err := c.Head(imageURL(c, id), &gophercloud.RequestOpts{
 		MoreHeaders: h,
 	})
 	res.Header = response.Header
 	res.Err = err
+	return res
+}
+
+// Delete image.
+func Delete(c *gophercloud.ServiceClient, id string) DeleteResult {
+	var res DeleteResult
+	h := c.AuthenticatedHeaders()
+
+	_, res.Err = c.Delete(imageURL(c, id), &gophercloud.RequestOpts{
+		MoreHeaders: h,
+		OkCodes: []int{200},
+	})
 	return res
 }

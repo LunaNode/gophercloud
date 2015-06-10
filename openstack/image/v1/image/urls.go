@@ -6,6 +6,6 @@ func createURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("images")
 }
 
-func getURL(client *gophercloud.ServiceClient, id string) string {
+func imageURL(client *gophercloud.ServiceClient, id string) string {
 	return client.ServiceURL("images", id)
 }

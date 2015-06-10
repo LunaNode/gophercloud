@@ -70,3 +70,7 @@ func (r GetResult) Extract() (*Image, error) {
 
 	return &image, nil
 }
+
+type DeleteResult struct {
+	gophercloud.ErrResult
+}
