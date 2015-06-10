@@ -217,6 +217,20 @@ func NewComputeV2(client *gophercloud.ProviderClient, eo gophercloud.EndpointOpt
 	return &gophercloud.ServiceClient{ProviderClient: client, Endpoint: url}, nil
 }
 
+// NewImageV1 creates a ServiceClient that may be used with the v1 image package.
+func NewImageV1(client *gophercloud.ProviderClient, eo gophercloud.EndpointOpts) (*gophercloud.ServiceClient, error) {
+	eo.ApplyDefaults("image")
+	url, err := client.EndpointLocator(eo)
+	if err != nil {
+		return nil, err
+	}
+	return &gophercloud.ServiceClient{
+		ProviderClient: client,
+		Endpoint: url,
+		ResourceBase: url + "v1/",
+	}, nil
+}
+
 // NewNetworkV2 creates a ServiceClient that may be used with the v2 network package.
 func NewNetworkV2(client *gophercloud.ProviderClient, eo gophercloud.EndpointOpts) (*gophercloud.ServiceClient, error) {
 	eo.ApplyDefaults("network")
