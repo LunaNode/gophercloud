@@ -235,6 +235,8 @@ func defaultOkCodes(method string) []int {
 	switch {
 	case method == "GET":
 		return []int{200}
+	case method == "HEAD":
+		return []int{200}
 	case method == "POST":
 		return []int{201, 202}
 	case method == "PUT":
@@ -254,6 +256,13 @@ func (client *ProviderClient) Get(url string, JSONResponse *interface{}, opts *R
 		opts.JSONResponse = JSONResponse
 	}
 	return client.Request("GET", url, *opts)
+}
+
+func (client *ProviderClient) Head(url string, opts *RequestOpts) (*http.Response, error) {
+	if opts == nil {
+		opts = &RequestOpts{}
+	}
+	return client.Request("HEAD", url, *opts)
 }
 
 func (client *ProviderClient) Post(url string, JSONBody interface{}, JSONResponse *interface{}, opts *RequestOpts) (*http.Response, error) {

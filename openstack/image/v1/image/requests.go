@@ -65,3 +65,16 @@ func Create(c *gophercloud.ServiceClient, opts CreateOptsBuilder) CreateResult {
 	})
 	return res
 }
+
+// Get image details.
+func Get(c *gophercloud.ServiceClient, id string) GetResult {
+	var res GetResult
+	h := c.AuthenticatedHeaders()
+
+	response, err := c.Head(getURL(c, id), &gophercloud.RequestOpts{
+		MoreHeaders: h,
+	})
+	res.Header = response.Header
+	res.Err = err
+	return res
+}
